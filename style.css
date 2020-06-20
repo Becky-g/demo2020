@@ -1,0 +1,25 @@
+
+body{
+    display: flex;
+    justify-content: center;
+
+}
+#todo-panel{
+    margin-top: 5em;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #eee;
+    width: 35em;
+    min-height: 25em;
+}
+.todo-editor{
+    display: flex;
+    padding :5px 30px ;
+}
+#content{
+    flex-grow: 1;
+    padding: 3px 2px ;
+    font-size: 1.1em;
+
+}
+   
