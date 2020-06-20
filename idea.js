@@ -14,12 +14,13 @@ function renderEditor() {
         inputEl.value = "";
         tasks.push(newTask);
         console.log("tasks,", tasks);
-        renderTaskItems()
+        renderTaskItems()//回车即提交
     }
 
     inputEl.onkeypress = (e) => {
         if (e.key === "Enter") {
             addTask();
+            //回车后文本框消失
 
         }
     };
@@ -28,6 +29,6 @@ function renderEditor() {
         console.log("add click");
         let inputEl = document.createElement("input");
         inputEl.type = "text";
-
+        //button后出现文本框，
     };
 }
